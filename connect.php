@@ -16,7 +16,7 @@
             <img src="res/connect/img1@1x.jpg" alt="">
         
         </div>
-        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'send.html';">
+        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'send.php';">
 
     <div class="footer"></div>
 </body>

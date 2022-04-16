@@ -18,8 +18,7 @@
                     <img src="res/ip/img2@1x.jpg" alt="">
             </div>
         </div>
-        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'end.html';">
+        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'end.php';">
 
-    <div class="footer"></div>
 </body>
 </html>

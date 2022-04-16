@@ -19,8 +19,6 @@
             </div>
         
         </div>
-        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'create.html';">
-
-    <div class="footer"></div>
+        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'create.php';">
 </body>
 </html>

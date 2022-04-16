@@ -9,10 +9,9 @@
         </div>
         <div class="twoColumnsEvenly" id="start">
             <h2>Чтобы начать изучение, нажмите</h2>
-            <p  onclick="location.href = 'info.html';" id="clickHere"> ЗДЕСЬ</p>
+            <p  onclick="location.href = 'info.php';" id="clickHere"> ЗДЕСЬ</p>
         </div>
-        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'info.html';">
+        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'info.php';">
     </div>
-    <div class="footer"></div>
 </body>
 </html>

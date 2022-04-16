@@ -2,7 +2,7 @@
     include_once 'header.php';
 
     session_start();
-/*
+
     if (isset($_SESSION["name"])) {
         if (isset($_SESSION["surname"]))
         {
@@ -10,7 +10,7 @@
             die();
         }
     }
-    */
+    
     $role;
     if (isset($_POST["login_submit"])) {
         $name = htmlspecialchars($_POST["name"]);

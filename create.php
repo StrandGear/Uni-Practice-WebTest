@@ -22,7 +22,7 @@
             </div>
         
         </div>
-        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'connect.html';">
+        <img class="arrow" id="arrow" src="res/arrow@2x.png" alt="down arrow" onclick="location.href = 'connect.php';">
 
     <div class="footer"></div>
 </body>
