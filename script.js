@@ -19,14 +19,19 @@ function myFunction() {
   var score = 0;
   var max_score = 0;
   var right_answer = "5ffe533b830f08a03263"; 
+  score_elem = document.querySelector('#score');
 
 function checkAnswers() {
     var allRightRadios = document.getElementsByClassName("5ffe533b830f08a03263");
     for (i = 0; i < allRightRadios.length; i++){
+      allRightRadios[i].parentNode.classList.add("hilghlit_answer");
       if (allRightRadios[i].checked)
       score += 1;        
     }
     max_score= score;
     console.log(score);
+    score_elem.innerHTML = "Ваш результат: " + score;
     score = 0;
   }
+
+

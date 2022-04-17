@@ -190,6 +190,32 @@ font-weight: bold;
 font-size: 20px;
 }
 
+#end label {
+  letter-spacing: 0.115em;
+}
+
+#end .one_column {
+  align-items: flex-start;
+  text-align: left;
+}
+
+#end h3 {
+  margin-left: 20px;
+}
+
+.hilghlit_answer {
+  background-color: greenyellow;
+}
+
+#score {
+  text-align: center;
+  background-color: white;
+  font-size: larger;
+  margin: 0 auto 30px auto;
+  width: 280px;
+  font-weight: bold;
+}
+
 .content_txt p {
   font-family: var(--font-family-oxygen);
   font-style: normal;
