@@ -18,6 +18,7 @@
         <h1><?=$_SESSION["name"]?></h1>
         <h1><?=$_SESSION["surname"]?></h1>
         <h2><?=$_SESSION["role"];?></h1>
+        <h2> Результат тестирования: <?=$_SESSION["score"]?> из "26" </h2>
         <input type="button" value="Disconnect" onclick="location.href = 'disconnect.php';">
     </div>
 </div>
