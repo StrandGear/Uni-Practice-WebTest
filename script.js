@@ -34,4 +34,15 @@ function checkAnswers() {
     score = 0;
   }
 
-
+function saveResult(event){
+  event.preventDefault();
+  var allRightRadios = document.getElementsByClassName("5ffe533b830f08a03263");
+  for (i = 0; i < allRightRadios.length; i++){
+    if (allRightRadios[i].checked)
+    score += 1;
+}
+  max_score = score;
+  score_elem.value = score;
+  score = 0;
+  document.querySelector("#resultForm").submit();
+}
