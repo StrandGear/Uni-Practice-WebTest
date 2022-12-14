@@ -6,6 +6,14 @@
     if (isset($_SESSION["name"])) {
         if (isset($_SESSION["surname"]))
         {
+            echo 'git update -start';
+             if (isset($_POST["score"])){
+                $score = htmlspecialchars($_POST["score"]);
+                $_SESSION["score"] = $score;
+                print_r($score);
+                $db->exec("UPDATE users SET Score = '\"$score\" ' WHERE ID = ' ".$_SESSION["id"]." ' ");
+             }
+            echo 'git update -end';
             header("location: profile.php");
             die();
         }
