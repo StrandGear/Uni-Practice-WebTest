@@ -626,9 +626,16 @@
                     <label for="q4_26">на тип организации</label>
                     </li>
             </ul>
+            <!--
             <button id="finish_test" onclick="checkAnswers()">Завершить</button>
             <p id="score"></p>
-            <!-- <input type="submit" name="record" value="Записать результат"> -->
+             <input type="submit" name="record" value="Записать результат"> -->
+            
+            <form id="resultForm" action="login.php" method="POST">
+            <input type="submit" name="record_submit" onclick="saveResult(event);" value ="Завершить">
+            <input type="hidden" name="score" id="score">
+            </form>
+            
         </div>
     </div>
 </body>
